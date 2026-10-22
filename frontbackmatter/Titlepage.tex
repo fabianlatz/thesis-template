@@ -7,9 +7,9 @@
 
   \vspace{1cm}
   \begin{center}
-    \includegraphics[width=\textwidth]{gfx/logo_fbi_eut} \\ 
+    \includegraphics[width=\textwidth]{gfx/logo_fbi_eut} \\
   \end{center}
-  \vfill
+  \vfill % Remove if space is needed
 
   \begin{center}
     \vspace{0.1cm}
@@ -23,7 +23,7 @@
 
   \begin{center}
     \LARGE \textbf{\myTitle}
-  \end{center} 
+  \end{center}
 
   \vfill
   \vfill
@@ -41,7 +41,9 @@
     \vspace{0.3cm}
     \Large \textbf{\myName}\\
     \vspace{0.3cm}
-    \normalsize Matrikelnummer: \myId
+    \normalsize Matrikelnummer: \myId\\
+    \vspace{0.3cm}
+    \normalsize am \myTime % added by Fabian Latz
   \end{center}
 
   \vfill
@@ -52,7 +54,7 @@
       Referent    & : & \myProf      \\
       Korreferent & : & \myOtherProf
     \end{tabular}
-  \end{center} 
+  \end{center}
 
   % If printed on two sides, center the title page
   \condTWOSIDE{\changetext{}{-19mm}{}{-19mm}{}}
